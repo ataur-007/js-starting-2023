@@ -1,35 +1,11 @@
-let mark = 12;
-if ( mark != 12){
-    console.log('it is ok now');
-}
-else {
-    console.log('not ok now')
-}
+// 
 
-let mark1 = 15;
-if ( mark1 == 12){
-    console.log('it is ok now');
-}
-else {
-    console.log('not ok now')
-}
+// var color = ['red', 'green', 'blue', 'yellow']
+// color.pop();
+// console.log(color);
+// var color = ['red', 'green', 'blue'];
+// var newcolor = color.slice(1);
+// console.log(newcolor);
 
-// two diffrent conditon
-
-var jobPaichoKina = false;
-var betonKtoPao = 50000;
-if( jobPaichoKina == true || betonKtoPao >= 5000){
-    console.log('ok tui biar joggo')
-}
-else{
-    console.log( ' tor kopale biya nai')
-}
-
-var jobPaichoKina = false;
-var betonKtoPao = 50000;
-if( jobPaichoKina == true && betonKtoPao >= 5000){
-    console.log('ok tui biar joggo')
-}
-else{
-    console.log( ' tor kopale biya nai')
-}
+var date = new Date('2002-11-07');
+console.log(date);

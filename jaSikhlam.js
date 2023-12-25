@@ -1,12 +1,10 @@
 
-module 12
+// module 12
 
 
-for number
-var number1 ='Ataur rahman'
+var number1 =30;
 console.log(number1)
 
-for string
 var number1 ='Ataur rahman'
 console.log(typeof number1)
 
@@ -16,27 +14,21 @@ console.log(number1);
 var number2 = 23435345;
 console.log(typeof number1)
 
-for find or search any word
 var text = " Organize your shop by categories, subcategories, and relevant filters. Use clear and concise language for product descriptions and CTAs"
 console.log(text.indexOf('relevant'))
 
-all letter lowerCase
 var text = " Organize your shop by categories, subcategories, and relevant filters. Use clear and concise language for product descriptions and CTAs"
 console.log(text.toLowerCase ())
 
-all letter UpperCase
 var text = " Organize your shop by categories, subcategories, and relevant filters. Use clear and concise language for product descriptions and CTAs"
 console.log(text.toUpperCase ())
 
-find any work in string
 var text = 'Organize your shop by categories, subcategories, and relevant filters. Use clear and concise language for product descriptions and CTAs'
 console.log(text.indexOf('concise'))
 
-kno lekhake vag kore dai je lekha diye ba word diye split kore hoi
 var text = " Organize r your shop by categories, r subcategories, and relevant filters. Use clear and concise r language for product descriptions and CTAs"
 console.log(text.split ('r'))
 
-bolean
 var hot = true;
 var cold = false;
 console.log(typeof cold)
@@ -133,6 +125,37 @@ var num = Math.random() * 10;
 var abs = Math.round(num);
 console.log(abs);
 
+//array function 
+
+const color = ['red', 'green', 'blue']
+const lenght = color[color.length - 1];
+console.log(lenght)
+
+
+const color = ['red', 'green', 'blue', 'perpel'];
+color.pop();
+console.log(color)
+
+const color = ['red', 'green', 'blue', 'perpel'];
+color.push('noob');
+console.log(color)
+
+const color = [ 'red', 'green', 'blue', 'black']
+delete color[0]
+console.log(color)
+
+const color1 = [ 'red']
+const color2 = [ 'black']
+const newcolor = color1.concat(color2)
+console.log(newcolor)
+
+const color = ['red', 'green', 'bluc']
+const slice = color.slice(1)
+console.log(slice) 
+
+const color =[ 'red', 'green', 'blue','red', 'green', 'blue']
+color.reverse()
+console.log(color)
 
 //this is for switch variable//
 let number = 2;
