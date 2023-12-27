@@ -127,33 +127,33 @@ console.log(abs);
 
 //array function 
 
-const color = ['red', 'green', 'blue']
-const lenght = color[color.length - 1];
+let color = ['red', 'green', 'blue']
+let lenght = color[color.length - 1];
 console.log(lenght)
 
 
-const color = ['red', 'green', 'blue', 'perpel'];
+let color = ['red', 'green', 'blue', 'perpel'];
 color.pop();
 console.log(color)
 
-const color = ['red', 'green', 'blue', 'perpel'];
+let color = ['red', 'green', 'blue', 'perpel'];
 color.push('noob');
 console.log(color)
 
-const color = [ 'red', 'green', 'blue', 'black']
+let color = [ 'red', 'green', 'blue', 'black']
 delete color[0]
 console.log(color)
 
-const color1 = [ 'red']
-const color2 = [ 'black']
-const newcolor = color1.concat(color2)
+let color1 = [ 'red']
+let color2 = [ 'black']
+let newcolor = color1.concat(color2)
 console.log(newcolor)
 
-const color = ['red', 'green', 'bluc']
-const slice = color.slice(1)
+let color = ['red', 'green', 'bluc']
+let slice = color.slice(1)
 console.log(slice) 
 
-const color =[ 'red', 'green', 'blue','red', 'green', 'blue']
+let color =[ 'red', 'green', 'blue','red', 'green', 'blue']
 color.reverse()
 console.log(color)
 
@@ -179,7 +179,28 @@ switch(number) {
          number = 'nothing'
 }
 console.log(number);
+// this is for work switch case
+const color = 10;
+switch(color){
+    case 100 && 80:
+        console.log('A+');
+        break;
+        case 79 && 70:
+            console.log('A');
+            break;
+        case 69 && 60:
+            console.log('A-');
+            break;
+        case 59 && 50:
+            console.log('B');
+            break;
+        case 49 && 40:
+            console.log('D');
+            break;
+            default:
+                console.log('Fail')
 
+}
 
 
 //let variable//
