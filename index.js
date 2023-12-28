@@ -48,29 +48,29 @@
 
 // how to work if, else and else if conditon.
 
-// let mark = 50;
+let mark = 50;
 
-// if (mark <=89 && mark >= 80){
-//     console.log('A+')
-// }
-// else if (mark <=79 && mark >= 70){
-//     console.log('A')
-// }
-// else if (mark <=69 && mark >= 60){
-//     console.log('A-')
-// }
-// else if (mark <=59 && mark >= 50){
-//     console.log('B')
-// }
-// else if (mark <=49 && mark >= 40){
-//     console.log('B+')
-// }
-// else if (mark <=39 && mark >= 33){
-//     console.log('C')
-// }
-// else(
-//     console.log('f')
-// )
+if (mark <=89 && mark >= 80){
+    console.log('A+')
+}
+else if (mark <=79 && mark >= 70){
+    console.log('A')
+}
+else if (mark <=69 && mark >= 60){
+    console.log('A-')
+}
+else if (mark <=59 && mark >= 50){
+    console.log('B')
+}
+else if (mark <=49 && mark >= 40){
+    console.log('B+')
+}
+else if (mark <=39 && mark >= 33){
+    console.log('C')
+}
+else(
+    console.log('f')
+)
 
 
 
