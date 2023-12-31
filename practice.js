@@ -1,16 +1,5 @@
+var student = { id:2323, Roll:24234, Name: "Ataur rahman"};
 
+var PHoneNumber = student.Roll;
 
-// function tomarNani (){
-//     console.log('nothing to say');
-//     console.log("She is mine")
-// }
-// tomarNani();
-
-// var number = 30;
-// var school = 40;
-// tomarNani();
-
-function car(width, height){
-    return width * height;
-}
-console.log(car(7, 5));
+console.log(typeof student);

@@ -80,8 +80,36 @@ else(
 // console.log(leastall);
 
 
-var color = [ 45, 45, 45, 45, 27, 90,];
-for(var i = 0; i < color.length; i++){
-    var tomato = color[i];
-    console.log(tomato);
+// var color = [ 45, 45, 45, 45, 27, 90,];
+// for(var i = 0; i < color.length; i++){
+//     var tomato = color[i];
+//     console.log(tomato);
+// }
+
+// function (mark){
+//     var number = mark / 4;
+//     return number;
+// }
+// console.log()
+
+
+// const year = 3996;
+// const reminder = year / 4;
+// if  ( reminder == 0){
+//   console.log('it is ok now')
+// }
+// else{
+//     console.log('need to fixed this ')
+// }
+
+function isLeapYear ( year){
+    const reminder = year % 4;
+    if(reminder == 0 ){
+        return true;
+    }
+    else{
+        return false;
+    }
 }
+const newYear = isLeapYear(2000);
+console.log(newYear);

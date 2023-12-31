@@ -55,3 +55,6 @@
 
 
 
+point.x = 3;
+point.y = 4;
+console.log("Modified Point: ", point);
