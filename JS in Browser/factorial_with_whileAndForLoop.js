@@ -27,3 +27,12 @@ function factForLoop(f){
 }
 var ForLoopTest = factForLoop(45);
 console.log(ForLoopTest);
+
+
+for ( let i = 0; i <= 5; i++){
+    if( i % 2 == 0){
+       console.log(i + 'even number')
+    }
+    else
+    console.log( i + ' odd number') 
+ }

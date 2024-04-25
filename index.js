@@ -48,7 +48,7 @@
 
 // how to work if, else and else if conditon.
 
-let mark = 50;
+let mark = 85;
 
 if (mark <=89 && mark >= 80){
     console.log('A+')
@@ -102,14 +102,14 @@ else(
 //     console.log('need to fixed this ')
 // }
 
-function isLeapYear ( year){
-    const reminder = year % 4;
-    if(reminder == 0 ){
-        return true;
-    }
-    else{
-        return false;
-    }
-}
-const newYear = isLeapYear(2000);
-console.log(newYear);
+// function isLeapYear ( year){
+//     const reminder = year % 4;
+//     if(reminder == 0 ){
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
+// }
+// const newYear = isLeapYear(2000);
+// console.log(newYear);

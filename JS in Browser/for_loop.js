@@ -12,16 +12,16 @@
 // }
 
 
-// function factorial(n){
-//     var factorial = 1;
-//     for(var i = 1; i <= n; i++){
-//         factorial = factorial * i; 
-//     }
-//     return factorial;
-// }
+function factorial(n){
+    var factorial = 1;
+    for(var i = 1; i <= n; i++){
+        factorial = factorial * i; 
+    }
+    return factorial;
+}
 
-// var number = factorial(10);
-// console.log(number);
+var number = factorial(10);
+console.log(number);
 
 // var number1 = factorial(3);
 // console.log(number1);
